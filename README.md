@@ -3,15 +3,23 @@
 
 Este projeto apresenta o desenvolvimento e a aplicação de um jogo digital interativo projetado para potencializar o processo de ensino-aprendizagem. Através da gamificação, o recurso foca na revisão de conteúdos e no estímulo à participação ativa dos alunos.
 
-## 📋 Metodologia do Projeto
+## 📋 Cronograma e Metodologia do Projeto
 
-A metodologia segue um fluxo lógico e rigoroso, garantindo que o objeto de estudo seja abordado de ponta a ponta. O diagrama abaixo detalha o caminho percorrido:
+A metodologia segue um fluxo lógico com tempos estimados para cada etapa, garantindo a organização desde o planejamento até a validação final.
 
 ```mermaid
 graph TD
-    A[1. Definição do Público-Alvo e Objetivos de Aprendizagem] --> B[2. Curadoria de Conteúdo e Dados]
-    B --> C[3. Planejamento Técnico e Recursos]
-    C --> D[4. Desenvolvimento e Design do Jogo]
-    D --> E[5. Aplicação e Avaliação Formativa]
-    E --> F[6. Análise de Aprendizagem Colaborativa]
-    F -.->|Feedback para Melhoria| B
+    Inicio([Início do Projeto]) --> Planejamento{Planejamento Pedagógico<br/>Duração: 4 dias}
+    
+    Planejamento --> Desenvolvimento[Desenvolvimento do Protótipo<br/>Duração: 4 dias]
+    Desenvolvimento --> Testes[Testes Iniciais<br/>Duração: 1 dia]
+    Testes --> Adaptacao[Adaptação Pedagógica<br/>Duração: 2 dias]
+    
+    Planejamento --> Pesquisa{Pesquisa e Análise de Ferramentas<br/>Duração: 3 dias}
+    Pesquisa --> Roteiro[Elaboração do Roteiro e Design<br/>Duração: 3 dias]
+    
+    Pesquisa --> Aprimoramento[Aprimoramento Visual e Técnico<br/>Duração: 5 dias]
+    Aprimoramento --> Avaliacao[Avaliação e Validação<br/>Duração: 3 dias]
+    
+    Adaptacao --> Avaliacao
+    Avaliacao --> Fim([Fim do Projeto])
